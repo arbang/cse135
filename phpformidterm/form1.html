@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Form Test</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+<h1>Form Test</h1>
+
+
+<form action="form1result.php" method="GET">
+
+ <label>Name:
+ 	<input type="text" name="name" size="40" maxlength="40" />
+ </label>
+ <br /> <br />
+  
+ <br>
+ <label>Email:
+ 	<input type="text" name="email" size="60" maxlength="120" />
+ </label>
+ <br /> <br />
+
+<label>
+  Sex: M: <input type="radio" name="sex" value="male" checked />
+       F: <input type="radio" name="sex" value="female"  />
+</label>
+
+ <br /> <br />
+ 
+ <label>
+  Language:
+  <select name="lang">
+  	<option>Chinese</option>
+  	<option selected="selected">English</option>
+  	<option>French</option>
+  	<option>Japanese</option>
+  	<option>Spanish</option>
+  </select>
+ 
+ </label>
+ <br /><br />
+  
+ 
+ <br /><br />
+ <input type="submit" value="Send" />
+ <input type="reset" value="Reset" />
+
+</form>
+
+
+</body>
+</html>
